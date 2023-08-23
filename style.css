@@ -1,0 +1,55 @@
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #000000;
+    height: 23%;
+  }
+  body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+  }
+  .navbar{
+    font-family: fantasy;
+    font-size: x-large;
+    color: rgb(24, 125, 213);
+    text-decoration:overline;
+    display: flex;
+  }
+  .navbar img{
+    width: 8vh;
+    height: 8vh;
+  }
+  main{
+    background-color:  rgb(73, 94, 169);
+  }
+  .texting{
+    color: azure;
+    font-size: medium;
+    padding: 4vh;
+    font-size: large;
+  }
+  .title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 245, 247);
+  }
+  @media (max-width: 800) { 
+    .navbar{
+        font-family: monospace;
+        font-size: x-large;
+        color: rgb(54, 236, 47);
+        text-decoration: overline;
+        display: flex;
+    }
+  }
+  footer{
+    color: rgb(24, 125, 213);
+    background-color: #000000;
+    text-align: center;
+    font-size: small;
+  }
