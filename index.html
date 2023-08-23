@@ -35,6 +35,25 @@
                 <br> <br>
                 Outra alternativa é a utilização do comando "@media" na estilização do código (cascata css), onde estabelecemos o máximo de pixels que um certo design ficará disposto de certa forma. Ao ultrapassarmos esse limite, as imagens e textos se adaptam e se dispõem da melhor maneira possível para uma melhor apresentação do site.
             </p>
+            <h3 class="title">GRIDS FLEXÍVEIS</h3>
+            <p>
+                Sites responsivos não apenas mudam seu layout entre breakpoints, eles são construídos em grids flexíveis. Um grid flexível significa que não há necessidade de marcar todos os tamanhos possíveis existentes, e sim, construir um layout perfeito baseado em pixels que se adequa automaticamente à tela. Essa abordagem seria impossível dado o vasto número de dispositivos com tamanhos diferentes que existem e o fato de que, mesmo nos desktops, as pessoas nem sempre utilizam a janela do navegador maximizada.
+                <br><br>
+                Com o uso de um grid flexível, não há necessidade de adicionar um breakpoint e alterar o desing no ponto onde o conteúdo começa a parecer ruim em determinada tela. Por exemplo, se o comprimento da linha se torna ilegível à medida que o tamanho da tela aumenta, ou uma caixa se fica espremida com duas palavras em cada linha, conforme o tamanho diminui.
+                <br><br>
+                Nos primórdios do design responsivo a única opção disponível para realizar layouts era utilizando floats (en-US). Layouts flexíveis flutuantes eram alcançados dando a cada elemento uma largura percentual, garantindo que em todo layout os totais não fossem maior que 100%.
+            </p>
+            <h3 class="title">MEDIA QUERY</h3>
+            <p>
+                O Design Responsivo apenas foi capaz de emergir devido o recurse de media query. A especificação Media Queries Level 3 se tornou uma Recomendação de Candidato em 2009, significando que estava pronto para ser implementado nos browsers. Media Queries nos permitem executar uma série de testes (e.g. se a tela do usuário é maior que uma certa largura, ou uma certa resolução) e aplicar um CSS seletivamente para estilizar a página de acordo com as necessidades do usuário.
+                <br><br>
+                Por exemplo, a seguinte media querie testa se a página atual está sendo exibida como mídia de tela (portanto, não é um documento impresso) e o viewport tem pelo menos 800 pixels de largura. O CSS para o seletor .container será aplicado apenas se essas duas condições forem verdade. 
+                Ex:  
+                <br><br>
+                Você pode adicionar múltiplos media queries dentro de uma folha de estilo, ajustando inteiramente seu layout ou partes dele que melhor se adequem a vários tamanhos de tela. Os pontos em quem uma Media Query é introduzida e o layout alterado são conhecidos como breakpoints.
+                <br><br>
+                Uma abordagem comum ao utilizar Media Queries é criar um layout de única coluna para dispositivos de telas pequenas (e.g smartphones), então fazer a checagem para telas maiores e implementar um layout de múltiplas colunas quando houver largura suficiente. Esse design é frequentemente descrito como mobile first.
+            </p>
         </div>
     </main>
     <footer>
